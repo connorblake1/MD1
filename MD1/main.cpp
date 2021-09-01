@@ -76,6 +76,7 @@ void ljpotforce(molec * other1, molec * other2) {
 
 int main(int, char const**)
 {
+    std::cout << "this is the phospholipid branch" <<std::endl;
     // Create the main window
     sf::RenderWindow window(sf::VideoMode(WINX, WINY), "MD Sim 1");
     // Set the Icon
