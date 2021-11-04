@@ -31,6 +31,10 @@ void PVector::normalize() {
     this->x /= r;
     this->y /= r;
     this->z /= r;}
+//PVector * PVector::scalm(PVector * other, float scale) {
+//    other = new PVector((*other).getX()*scale,(*other).getY()*scale,(*other).getZ()*scale);
+//}
+
 PVector * PVector::scalm(PVector * other, float scale) {
     return new PVector((*other).getX()*scale,(*other).getY()*scale,(*other).getZ()*scale);
 }

@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		FA14673A26D1BDBF00296909 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA14673926D1BDBF00296909 /* ResourcePath.mm */; };
 		FA14673D26D1BDBF00296909 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA14673C26D1BDBF00296909 /* main.cpp */; };
-		FA14676026D1C62300296909 /* molec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA14675E26D1C62300296909 /* molec.cpp */; };
+		FA14676026D1C62300296909 /* pointmolec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA14675E26D1C62300296909 /* pointmolec.cpp */; };
+		FA584FBC26F3B28B007210D4 /* linearmolec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA584FBA26F3B28B007210D4 /* linearmolec.cpp */; };
+		FA584FC126F3DA13007210D4 /* molec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA584FBF26F3DA13007210D4 /* molec.cpp */; };
 		FACC6F8126D533A7006719D3 /* PVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FACC6F7F26D533A7006719D3 /* PVector.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +25,12 @@
 		FA14674F26D1BDE200296909 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = ../../sansation.ttf; sourceTree = "<group>"; };
 		FA14675026D1BDE200296909 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cute_image.jpg; path = ../../cute_image.jpg; sourceTree = "<group>"; };
 		FA14675126D1BDE700296909 /* MD1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "MD1-Info.plist"; path = "../../MD1-Info.plist"; sourceTree = "<group>"; };
-		FA14675E26D1C62300296909 /* molec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = molec.cpp; sourceTree = "<group>"; };
-		FA14675F26D1C62300296909 /* molec.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = molec.hpp; sourceTree = "<group>"; };
+		FA14675E26D1C62300296909 /* pointmolec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointmolec.cpp; sourceTree = "<group>"; };
+		FA14675F26D1C62300296909 /* pointmolec.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pointmolec.hpp; sourceTree = "<group>"; };
+		FA584FBA26F3B28B007210D4 /* linearmolec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linearmolec.cpp; sourceTree = "<group>"; };
+		FA584FBB26F3B28B007210D4 /* linearmolec.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = linearmolec.hpp; sourceTree = "<group>"; };
+		FA584FBF26F3DA13007210D4 /* molec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = molec.cpp; sourceTree = "<group>"; };
+		FA584FC026F3DA13007210D4 /* molec.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = molec.hpp; sourceTree = "<group>"; };
 		FACC6F7F26D533A7006719D3 /* PVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PVector.cpp; sourceTree = "<group>"; };
 		FACC6F8026D533A7006719D3 /* PVector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PVector.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,10 +73,14 @@
 				FA14675126D1BDE700296909 /* MD1-Info.plist */,
 				FA14674D26D1BDE200296909 /* MD_Icon.png */,
 				FA14673C26D1BDBF00296909 /* main.cpp */,
-				FA14675E26D1C62300296909 /* molec.cpp */,
-				FA14675F26D1C62300296909 /* molec.hpp */,
+				FA14675E26D1C62300296909 /* pointmolec.cpp */,
+				FA14675F26D1C62300296909 /* pointmolec.hpp */,
 				FACC6F7F26D533A7006719D3 /* PVector.cpp */,
 				FACC6F8026D533A7006719D3 /* PVector.hpp */,
+				FA584FBA26F3B28B007210D4 /* linearmolec.cpp */,
+				FA584FBB26F3B28B007210D4 /* linearmolec.hpp */,
+				FA584FBF26F3DA13007210D4 /* molec.cpp */,
+				FA584FC026F3DA13007210D4 /* molec.hpp */,
 			);
 			path = MD1;
 			sourceTree = "<group>";
@@ -164,9 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA584FBC26F3B28B007210D4 /* linearmolec.cpp in Sources */,
 				FA14673D26D1BDBF00296909 /* main.cpp in Sources */,
+				FA584FC126F3DA13007210D4 /* molec.cpp in Sources */,
 				FA14673A26D1BDBF00296909 /* ResourcePath.mm in Sources */,
-				FA14676026D1C62300296909 /* molec.cpp in Sources */,
+				FA14676026D1C62300296909 /* pointmolec.cpp in Sources */,
 				FACC6F8126D533A7006719D3 /* PVector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
